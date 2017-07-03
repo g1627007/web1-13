@@ -24,3 +24,7 @@ var refresh= function(){
   setTimeout(update, 1000);
 }
 upfate();
+
+document.getElementById('form').select.onchange = function(){
+  location.href = document.getElementById('form').select.value;
+}
