@@ -28,3 +28,10 @@ update();
 document.getElementById('form').select.onchange = function(){
   location.href = document.getElementById('form').select.value;
 }
+
+var thmubs = document.querySelectorAll('.thumb');
+for(idx in thmuns){
+    thmbs[idx].onclick = function(){
+      document.getElementById("bigimg").src = 'img/' + this.dateset.image+ '.jpg';
+    }
+}
